@@ -2,7 +2,7 @@
 # 确保脚本抛出遇到的错误
 set -e
 git add -A
-git commit -m 'vuex讲解'
+git commit -m 'vuex补充'
 echo '自动发布'
 git push origin master
 echo '自动发布完成'

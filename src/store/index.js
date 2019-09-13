@@ -9,7 +9,7 @@ import user from './moudle/user';
 // process.env.NODE_ENV -> development(开发环境(写代码))、production(生产环境(上线))e
 Vue.use(Vuex);
 const state = {
-  count: 1,
+  count: 100,
 };
 export default new Vuex.Store({
   strict: process.env.NODE_ENV === 'development', // 开启vuex严格模式 在mutation之外修改state会报警告(给开发人员看的)

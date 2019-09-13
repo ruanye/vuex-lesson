@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <button class="btn" @click="addCount">点击加一</button>
-    {{ $store.state.count }}
+    {{ $store.state.user.count }}
     <button class="btn" @click="minusCount">点击减一</button>
   </div>
 </template>

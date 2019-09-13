@@ -9,4 +9,7 @@ export default {
   [Types.MINUS_COUNT](state) {
     state.count -= 1;
   },
+  ACount(state) {
+    console.log(state.count);
+  },
 };
